@@ -1,0 +1,83 @@
+.previous {
+  height: 600px;
+  width: 50px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.next {
+  height: 600px;
+  width: 50px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.slideshow {
+  text-align: center;
+}
+
+.slideshow-image {
+  display: none;
+}
+
+.current-image {
+  display: inline-block;
+}
+
+.selector {
+  border-radius: 10px;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.selected {
+  background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dropdown {
+  display: inline-block;
+}
+
+.drop-hover {
+  width: 70px;
+  height: 40px;
+}
+
+.dropdown-content {
+  background-color: grey;
+  width: 70px;
+  position: absolute;
+  display: none;
+}
+
+.dropdown-content a {
+  background-color: grey;
+  display: block;
+  padding: 3px;
+  margin: 3px;
+}
+
+.visible {
+  display: block;
+}
